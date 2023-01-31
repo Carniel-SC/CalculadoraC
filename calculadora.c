@@ -26,6 +26,16 @@ int main()
     z = x + x;
     printf("A soma é:%d\n", z);
     break;
+
+  // Opção 2 *Subtração*
+  case 2:
+    printf("Introduza uma número Válido\n");
+    scanf("%d", &x);
+    printf("Introduza uma número Válido\n");
+    scanf("%d", &y);
+    z = x - y;
+    printf("A soma é:%d\n", z);
+    break;
   }
   return 0;
 }
