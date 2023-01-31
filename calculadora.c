@@ -34,7 +34,17 @@ int main()
     printf("Introduza uma número Válido\n");
     scanf("%d", &y);
     z = x - y;
-    printf("A soma é:%d\n", z);
+    printf("A subtração é:%d\n", z);
+    break;
+
+  // Opção 3 *Multiplicação*
+  case 3:
+    printf("Introduza uma número Válido\n");
+    scanf("%d", &x);
+    printf("Introduza uma número Válido\n");
+    scanf("%d", &y);
+    z = x * y;
+    printf("A multiplicação é:%d\n", z);
     break;
   }
   return 0;
