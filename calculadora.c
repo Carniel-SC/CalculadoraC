@@ -46,6 +46,25 @@ int main()
     z = x * y;
     printf("A multiplicação é:%d\n", z);
     break;
+
+  // Opção 4 *Divisão*
+  case 4:
+    printf("Introduza uma número Válido\n");
+    scanf("%d", &x);
+    printf("Introduza uma número Válido\n");
+    scanf("%d", &y);
+    z = x / y;
+    printf("A divisão é:%d\n", z);
+    break;
+
+  // Opção 5 *Encerrar programa*
+  case 5:
+    printf("Programa encerrado...\n");
+    break;
+
+  // Opção se digitar nenhuma das opções
+  default:
+    printf("Não corresponde a nenhuma opcao do menu...\n");
   }
   return 0;
 }
