@@ -2,7 +2,7 @@
 
 int main()
 {
-  int x = 0, y = 0, z = 0;
+  float x = 0, y = 0, z = 0;
 
   int menu;
 
@@ -20,41 +20,41 @@ int main()
   // Opcão 1 *Adição*
   case 1:
     printf("Introduza uma número Válido\n");
-    scanf("%d", &x);
+    scanf("%f", &x);
     printf("Introduza uma número Válido\n");
-    scanf("%d", &y);
+    scanf("%f", &y);
     z = x + x;
-    printf("A soma é:%d\n", z);
+    printf("A soma é:%f\n", z);
     break;
 
   // Opção 2 *Subtração*
   case 2:
     printf("Introduza uma número Válido\n");
-    scanf("%d", &x);
+    scanf("%f", &x);
     printf("Introduza uma número Válido\n");
-    scanf("%d", &y);
+    scanf("%f", &y);
     z = x - y;
-    printf("A subtração é:%d\n", z);
+    printf("A subtração é:%f\n", z);
     break;
 
   // Opção 3 *Multiplicação*
   case 3:
     printf("Introduza uma número Válido\n");
-    scanf("%d", &x);
+    scanf("%f", &x);
     printf("Introduza uma número Válido\n");
-    scanf("%d", &y);
+    scanf("%f", &y);
     z = x * y;
-    printf("A multiplicação é:%d\n", z);
+    printf("A multiplicação é:%f\n", z);
     break;
 
   // Opção 4 *Divisão*
   case 4:
     printf("Introduza uma número Válido\n");
-    scanf("%d", &x);
+    scanf("%f", &x);
     printf("Introduza uma número Válido\n");
-    scanf("%d", &y);
+    scanf("%f", &y);
     z = x / y;
-    printf("A divisão é:%d\n", z);
+    printf("A divisão é:%f\n", z);
     break;
 
   // Opção 5 *Encerrar programa*
